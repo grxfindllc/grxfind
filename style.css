@@ -1,4 +1,9 @@
-body {
+.logo {
+  display: block;
+  width: 500px;
+  max-width: 90%;
+  margin: 30px auto 50px auto;
+}body {
   background: black;
   color: gold;
   font-family: Georgia, serif;
