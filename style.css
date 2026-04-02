@@ -1,30 +1,31 @@
 body{
-  background:black;
-  text-align:center;
+  background:white;
   margin:0;
-  padding:20px 0;
+  padding:30px;
+  text-align:center;
 }
 
 .product-card{
-  width:220px;
-  margin:30px auto;
-  background:#111;
-  border:1px solid gold;
-  border-radius:15px;
-  padding:15px;
+  display:inline-block;
+  vertical-align:top;
+  margin:10px;
+  background:transparent;
+  border:none;
+  padding:0;
+  width:auto;
 }
 
 .product-card img{
-  width:220px;
-  height:180px;
+  width:180px;
+  height:220px;
   object-fit:cover;
   display:block;
   margin:0 auto 8px auto;
-  border-radius:10px;
+  border-radius:0;
 }
 
 .extra-photo{
-  margin-top:8px;
+  margin-top:0;
 }
 
 .peace-photo{
@@ -32,23 +33,21 @@ body{
 }
 
 h3{
-  color:gold;
   font-size:22px;
-  margin:10px 0;
+  color:black;
+  margin:8px 0;
 }
 
 a{
-  display:inline-block;
   text-decoration:none;
 }
 
 .product-card > a:last-of-type{
-  width:120px;
-  text-align:center;
-  margin-top:10px;
-  padding:10px 0;
+  display:inline-block;
+  margin-top:8px;
+  padding:8px 18px;
   background:gold;
   color:black;
-  border-radius:10px;
+  border-radius:8px;
   font-weight:bold;
 }
