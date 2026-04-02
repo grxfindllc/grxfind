@@ -1,17 +1,4 @@
 .product-card{
-  width:220px;
-  padding:15px;
-}
-
-.product-card img{
-  height:180px;
-}
-
-h3{
-  font-size:22px;
-}
-
-.product-card{
   width: 260px;
   background:#111;
   border:1px solid gold;
@@ -47,4 +34,28 @@ a{
   text-decoration:none;
   border-radius:10px;
   font-weight:bold;
+}
+
+
+.product-card{
+  width:220px !important;
+  background:#111;
+  border:1px solid gold;
+  border-radius:15px;
+  padding:15px !important;
+  margin:15px auto !important;
+}
+
+.product-card img{
+  width:100% !important;
+  height:180px !important;
+  object-fit:cover !important;
+  border-radius:10px;
+  display:block;
+}
+
+h3{
+  color:gold;
+  font-size:22px !important;
+  margin:10px 0;
 }
