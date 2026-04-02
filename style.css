@@ -1,7 +1,7 @@
 body{
-  background:white;
+  background:black;
   margin:0;
-  padding:30px;
+  padding:30px 0;
   text-align:center;
 }
 
@@ -12,7 +12,7 @@ body{
   background:transparent;
   border:none;
   padding:0;
-  width:auto;
+  width:180px;
 }
 
 .product-card img{
@@ -20,34 +20,16 @@ body{
   height:220px;
   object-fit:cover;
   display:block;
-  margin:0 auto 8px auto;
+  margin:0 auto;
   border-radius:0;
 }
 
-.extra-photo{
+.extra-photo,
+.peace-photo{
   margin-top:0;
 }
 
-.peace-photo{
-  object-position:center top;
-}
-
-h3{
-  font-size:22px;
-  color:black;
-  margin:8px 0;
-}
-
+h3,
 a{
-  text-decoration:none;
-}
-
-.product-card > a:last-of-type{
-  display:inline-block;
-  margin-top:8px;
-  padding:8px 18px;
-  background:gold;
-  color:black;
-  border-radius:8px;
-  font-weight:bold;
+  display:none;
 }
