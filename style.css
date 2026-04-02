@@ -9,9 +9,6 @@ body{
   display:inline-block;
   vertical-align:top;
   margin:10px;
-  background:transparent;
-  border:none;
-  padding:0;
   width:180px;
 }
 
@@ -21,15 +18,9 @@ body{
   object-fit:cover;
   display:block;
   margin:0 auto;
-  border-radius:0;
-}
-
-.extra-photo,
-.peace-photo{
-  margin-top:0;
 }
 
 h3,
-a{
+a.buy-btn{
   display:none;
 }
