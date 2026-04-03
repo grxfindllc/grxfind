@@ -219,5 +219,59 @@ body{
   .contact-section p{
     font-size:18px;
   }
+
+.product-page{
+  display:flex;
+  gap:50px;
+  padding:60px;
+  align-items:flex-start;
+  background:black;
+  color:white;
 }
 
+.product-left{
+  flex:1;
+}
+
+.product-right{
+  flex:1;
+  padding-top:40px;
+}
+
+.main-product-image{
+  width:100%;
+  max-width:500px;
+  border:2px solid gold;
+  border-radius:20px;
+}
+
+.thumbnail-row{
+  display:flex;
+  gap:15px;
+  margin-top:20px;
+}
+
+.thumb{
+  width:100px;
+  height:100px;
+  object-fit:cover;
+  border:2px solid gold;
+  border-radius:12px;
+  cursor:pointer;
+}
+
+.thumb.active{
+  box-shadow:0 0 15px gold;
+}
+
+.buy-btn{
+  display:inline-block;
+  background:gold;
+  color:black;
+  padding:14px 30px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+  border:none;
+  cursor:pointer;
+}
