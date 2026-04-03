@@ -131,11 +131,9 @@ body{
   margin:20px 0 10px;
 }
 
-.product-text{
-  color:#ddd;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:22px;
+.product-card{
+  text-decoration:none;
+  color:white;
 }
 
 .buy-btn{
