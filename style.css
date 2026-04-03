@@ -155,10 +155,6 @@ body{
   transform:scale(1.05);
 }
 
-.buy-btn:hover{
-  background:white;
-}
-
 .about-section,
 .contact-section{
   width:90%;
