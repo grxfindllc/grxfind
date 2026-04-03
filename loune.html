@@ -20,5 +20,19 @@
 
     <div style="font-size:48px; color:gold; margin:20px 0;">$79.99</div>
   </div>
-
 </div>
+
+  <script>
+function changeImage(img){
+  document.getElementById("main-image").src = img.src;
+
+  document.querySelectorAll(".thumb").forEach(item=>{
+    item.classList.remove("active");
+  });
+
+  img.classList.add("active");
+}
+</script>
+
+</body>
+</html>
