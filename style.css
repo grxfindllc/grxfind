@@ -287,10 +287,16 @@ footer{
   font-weight:bold;
 }
 
- .main-product-image{
+.main-product-image{
   width:220px !important;
   height:auto !important;
   border:2px solid #d4af37;
   border-radius:15px;
   margin:10px;
+}
+
+.product-left{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-start;
 }
