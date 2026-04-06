@@ -350,3 +350,16 @@ footer{
 .gson-gallery img:hover{
   transform:scale(1.03);
 }
+
+  .product-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.product-img{
+  width:100%;
+  height:260px;
+  object-fit:cover;
+  border-radius:20px;
+}
