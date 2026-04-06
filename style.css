@@ -300,8 +300,13 @@ footer{
   align-items:flex-start;
 }
 
-a.buy-btn:hover,
-button.buy-btn:hover{
-  background: white !important;
-  color: black !important;
+.buy-btn{
+  background:#ffd700 !important;
+  color:#000 !important;
+}
+
+.buy-btn:hover{
+  background:#000 !important;
+  color:#ffd700 !important;
+  border:2px solid #ffd700 !important;
 }
