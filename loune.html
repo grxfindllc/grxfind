@@ -20,18 +20,17 @@ style="display:inline-block; margin-top:20px; background:gold; color:black; padd
 onmouseover="this.style.background='white'; this.style.color='black';"
 onmouseout="this.style.background='gold'; this.style.color='black';">
 Buy Now</a>
-
- <div class="product-left">
-  <img src="lounejpeg.jpeg" class="main-product-image">
-  <img src="lounestoryjpeg.jpeg" class="main-product-image">
-  <img src="loune3.jpeg" class="main-product-image">
-</div>
-
 <div class="loune-gallery">
-  <img src="loune-modeljpeg.jpeg" class="gallery-img" onclick="changeImage(this.src)">
-  <img src="loune-handjpeg.jpeg" class="gallery-img" onclick="changeImage(this.src)">
-  <img src="loune-bedroomjpeg.jpeg" class="gallery-img" onclick="changeImage(this.src)">
+  <img src="loune-model.jpg" class="gallery-img" onclick="changeImage(this.src)">
+  <img src="loune-hand.jpg" class="gallery-img" onclick="changeImage(this.src)">
+  <img src="loune-bedroom.jpg" class="gallery-img" onclick="changeImage(this.src)">
 </div>
+
+<script>
+function changeImage(newImage){
+  document.querySelector('.main-product-image').src = newImage;
+}
+</script>
 
 <script>
 function changeImage(newImage){
