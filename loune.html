@@ -9,16 +9,15 @@
 
 <div class="product-page">
 
- <div class="product-left">
-  <img src="lounejpeg.jpeg" class="main-product-image">
-  <img src="lounestoryjpeg.jpeg" class="main-product-image">
-  <img src="loune3.jpeg" class="main-product-image">
-</div>
-    <div class="thumbnail-row">
-      <img src="lounejpeg.jpeg" class="thumb active" onclick="changeImage(this)">
-      <img src="loune-storyjpeg.jpeg" class="thumb" onclick="changeImage(this)">
-    </div>
+<div class="product-left">
+  <img id="main-image" src="lounejpeg.jpeg" style="width:300px; border-radius:20px;">
+
+  <div class="thumbnail-row">
+    <img src="lounejpeg.jpeg" class="thumb" onclick="document.getElementById('main-image').src=this.src">
+    <img src="lounestoryjpeg.jpeg" class="thumb" onclick="document.getElementById('main-image').src=this.src">
+    <img src="loune3.jpeg" class="thumb" onclick="document.getElementById('main-image').src=this.src">
   </div>
+</div>
 
   <div class="product-right">
     <h1 style="color:gold;">LOUNE</h1>
