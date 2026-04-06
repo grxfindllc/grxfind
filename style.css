@@ -299,3 +299,7 @@ footer{
   align-items:flex-start;
 }
 
+ .buy-btn:hover{
+  background:white !important;
+  color:black !important;
+} 
