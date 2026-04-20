@@ -99,6 +99,16 @@ body{
   grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
   gap:40px;
 }
+@media (max-width:768px){
+    .products-grid{
+        justify-content:center;
+    }
+
+    .product-card{
+        margin:20px auto;
+    }
+}
+
 
 .product-card{
   background:#0d0d0d;
@@ -243,8 +253,8 @@ body{
 #contact p{
     font-size:20px;
     margin:15px 0;
+    color:#f5f5f5;
 }
-
 footer{
     margin-top:60px;
     padding-bottom:30px;
