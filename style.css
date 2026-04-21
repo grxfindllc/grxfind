@@ -143,19 +143,19 @@ body{
   color:#d4af37;
   font-size:34px;
   margin:20px 0 10px;
-  min-height:80px;
+  min-height:60px;
   display:flex;
   align-items:center;
   justify-content:center;
 }
 .product-card p{
-  min-height:180px;
+  min-height:140px;
   display:flex;
-  align-items:flex-start;
+  align-items:center;
   justify-content:center;
   text-align:center;
-  color:white;
-  line-height:1.7;
+  line-height:1.6;
+  padding:0 10px;
 }
 
 .buy-btn{
