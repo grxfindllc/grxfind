@@ -139,8 +139,20 @@ body{
   color:#d4af37;
   font-size:34px;
   margin:20px 0 10px;
+  min-height:80px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
-
+.product-card p{
+  min-height:180px;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  line-height:1.7;
+}
 .product-card{
   text-decoration:none;
   color:white;
