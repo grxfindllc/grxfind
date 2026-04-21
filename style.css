@@ -411,3 +411,43 @@ footer{
 #contact{
     margin-top:80px;
 }
+
+h1{
+  font-size:clamp(38px, 6vw, 70px);
+}
+
+h2{
+  font-size:clamp(28px, 5vw, 48px);
+}
+
+p{
+  font-size:clamp(16px, 2.5vw, 24px);
+  line-height:1.7;
+}
+
+.price{
+  font-size:clamp(32px, 5vw, 48px);
+}
+
+.buy-btn{
+  font-size:clamp(18px, 3vw, 26px);
+  padding:16px 36px;
+}
+
+.product-info{
+  font-size:clamp(18px, 3vw, 30px);
+}
+
+@media (max-width:768px){
+  .product-page{
+    padding:30px 20px;
+  }
+
+  .main-product-image{
+    max-width:100%;
+  }
+
+  .product-description{
+    font-size:18px;
+  }
+}
