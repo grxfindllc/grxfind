@@ -390,3 +390,20 @@ footer{
   object-fit:cover;
   border-radius:20px;
 }
+.coming-soon{
+    text-align:center;
+    color:#d4af37;
+    margin:60px 20px;
+    line-height:1.8;
+    font-size:22px;
+}
+
+.coming-soon h2{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.coming-soon p{
+    font-size:24px;
+    margin:12px 0;
+}
