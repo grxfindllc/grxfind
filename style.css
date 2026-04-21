@@ -518,3 +518,17 @@ p{
   font-size:clamp(18px, 2.5vw, 28px);
   margin-bottom:30px;
 }
+
+.product-card p,
+.product-text{
+  width:100%;
+  max-width:280px;
+  margin:0 auto 20px;
+  color:white;
+  text-align:center;
+  line-height:1.7;
+}
+
+.product-card{
+  align-items:center;
+}
