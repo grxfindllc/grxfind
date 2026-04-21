@@ -536,23 +536,3 @@ p{
 .product-card{
   align-items:center;
 }
-
-@media (max-width:768px){
-  .hero-overlay{
-    width:95%;
-  }
-
-  .hero-overlay h1{
-    font-size:32px;
-  }
-
-  .hero-overlay p{
-    font-size:16px;
-    padding:0 15px;
-  }
-
-  .hero-btn{
-    font-size:18px;
-    padding:14px 28px;
-  }
-}
