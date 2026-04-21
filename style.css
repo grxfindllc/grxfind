@@ -226,7 +226,7 @@ body{
         max-width:90%;
         margin:0 auto;
     }
-
+  
     .menu{
         flex-direction:column;
         gap:10px;
@@ -556,4 +556,10 @@ p{
     font-size:17px;
     padding:12px 24px;
   }
+}
+
+  .product-card img{
+    height:220px;
+    object-fit:contain;
+    background:#fff;
 }
