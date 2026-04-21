@@ -516,10 +516,13 @@ p{
   margin-bottom:20px;
 }
 
-.hero-overlay p{
-  font-size:clamp(18px, 2vw, 28px);
-  margin-bottom:30px;
+.hero-overlay h1{
+  font-size:42px;
+  line-height:1.1;
+  margin-bottom:20px;
+  padding:0 15px;
 }
+
 .product-card p,
 .product-text{
   width:100%;
@@ -532,4 +535,24 @@ p{
 
 .product-card{
   align-items:center;
+}
+
+@media (max-width:768px){
+  .hero-overlay{
+    width:95%;
+  }
+
+  .hero-overlay h1{
+    font-size:32px;
+  }
+
+  .hero-overlay p{
+    font-size:16px;
+    padding:0 15px;
+  }
+
+  .hero-btn{
+    font-size:18px;
+    padding:14px 28px;
+  }
 }
