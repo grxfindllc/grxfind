@@ -566,3 +566,58 @@ p{
     object-fit:contain;
     background:#fff;
 }
+
+.simple-product{
+    text-align:center;
+    padding:40px 20px;
+    background:#050505;
+    color:white;
+}
+
+.main-product{
+    width:220px;
+    max-width:80%;
+    display:block;
+    margin:20px auto;
+}
+
+.simple-product h1{
+    color:#d4af37;
+    font-size:42px;
+    margin-top:20px;
+}
+
+.simple-product p{
+    color:#ddd;
+    font-size:20px;
+    max-width:500px;
+    margin:20px auto 30px;
+    line-height:1.6;
+}
+
+.buy-now{
+    display:inline-block;
+    background:#d4af37;
+    color:black;
+    padding:16px 40px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom:40px;
+}
+
+.gallery{
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.gallery img{
+    width:110px;
+    height:110px;
+    object-fit:cover;
+    border-radius:12px;
+    border:2px solid #d4af37;
+}
