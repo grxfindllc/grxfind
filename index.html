@@ -1,90 +1,637 @@
-<!-- INDEX.HTML -->
-<title>GRXFIND Fragrance Collection | LOUNE, GSON & PEACE UP</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="Discover GRXFIND Luxury Fragrance Collection featuring LOUNE, GSON and PEACE UP. Premium long-lasting fragrances designed for confidence, elegance and style.">
+  <title>GRXFIND Luxury Fragrance Collection | LOUNE, GSON & PEACE UP</title>
 
-<link rel="stylesheet" href="style.css">
+  <meta name="description" content="Discover GRXFIND Luxury Fragrance Collection featuring LOUNE, GSON and PEACE UP. Premium fragrances designed for confidence, elegance and style.">
 
-<nav class="menu">
-  <div class="menu-logo">GRXFIND</div>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-  <div class="menu-links">
-    <a href="#home">Home</a>
-   <a href="shop.html">Shop</a>
-  <a href="about.html">About</a>
-    <a href="#contact">Contact</a>
-  </div>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #0b0b0b;
+      color: #f5f1e8;<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<section class="shop-hero">
-  <h1>Our Luxury Collection</h1>
-  <p>Discover LOUNE, GSON and PEACE UP.</p>
-</section>
+  <title>GRXFIND Luxury Fragrance Collection | LOUNE, GSON & PEACE UP</title>
 
-<section class="products-page">
+  <meta name="description" content="Discover GRXFIND Luxury Fragrance Collection featuring LOUNE, GSON and PEACE UP. Premium fragrances designed for confidence, elegance and style.">
 
-  <div class="products-grid">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-    <div class="product-card">
-      <a href="loune.html">
-        <img src="lounejpeg.jpeg" class="product-img" alt="LOUNE">
-      </a>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #0b0b0b;
+      color: #f5f1e8;
+      line-height: 1.6;
+    }
 
-      <h3>LOUNE</h3>
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-      <p class="product-text">
-        A soft, elegant fragrance with a feminine and luxurious style.
-      </p>
+    .navbar {
+      width: 100%;
+      padding: 18px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #292929;
+      background: #0b0b0b;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
 
-      <a href="loune.html" class="buy-btn">View Product</a>
+    .logo {
+      height: 55px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .nav-links a {
+      color: #f5f1e8;
+      transition: 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: #d4af37;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 85px 20px 55px;
+      background:
+        radial-gradient(circle at center, #242016 0%, #0b0b0b 58%);
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 7vw, 78px);
+      font-weight: 500;
+      letter-spacing: 2px;
+      color: #d4af37;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 620px;
+      margin: auto;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #cfc9bd;
+      letter-spacing: 1px;
+    }
+
+    .gold-line {
+      width: 75px;
+      height: 1px;
+      background: #d4af37;
+      margin: 28px auto 0;
+    }
+
+    .collection {
+      max-width: 1180px;
+      margin: auto;
+      padding: 45px 20px 90px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .product {
+      text-align: center;
+      padding: 28px 22px 35px;
+      border: 1px solid #292929;
+      background: #111111;
+      transition: transform 0.25s, border-color 0.25s;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+      border-color: #d4af37;
+    }
+
+    .product-image {
+      width: 100%;
+      height: 390px;
+      object-fit: contain;
+      display: block;
+      margin-bottom: 25px;
+      background: #f7f7f7;
+    }
+
+    .product h2 {
+      color: #d4af37;
+      font-size: 32px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      margin-bottom: 13px;
+    }
+
+    .product p {
+      min-height: 55px;
+      color: #c7c1b7;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 28px;
+      border: 1px solid #d4af37;
+      color: #d4af37;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      letter-spacing: 1px;
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      background: #d4af37;
+      color: #0b0b0b;
+    }
+
+    .footer {
+      border-top: 1px solid #292929;
+      text-align: center;
+      padding: 35px 20px;
+      color: #999;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 800px) {
+      .navbar {
+        padding: 15px 20px;
+      }
+
+      .logo {
+        height: 48px;
+      }
+
+      .nav-links {
+        gap: 13px;
+        font-size: 11px;
+      }
+
+      .hero {
+        padding: 60px 18px 40px;
+      }
+
+      .hero h1 {
+        font-size: 43px;
+        line-height: 1.1;
+      }
+
+      .hero p {
+        font-size: 14px;
+      }
+
+      .collection {
+        padding: 30px 16px 60px;
+      }
+
+      .products {
+        grid-template-columns: 1fr;
+        gap: 22px;
+      }
+
+      .product {
+        padding: 20px 18px 30px;
+      }
+
+      .product-image {
+        height: 330px;
+      }
+
+      .product h2 {
+        font-size: 29px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .nav-links {
+        gap: 9px;
+        font-size: 10px;
+      }
+
+      .logo {
+        height: 42px;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      .product-image {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="index.html">
+      <img src="logo.png.jpeg" class="logo" alt="GRXFIND">
+    </a>
+
+    <div class="nav-links">
+      <a href="index.html">HOME</a>
+      <a href="shop.html">SHOP</a>
+      <a href="about.html">ABOUT</a>
+      <a href="#contact">CONTACT</a>
     </div>
+  </nav>
 
-    <div class="product-card">
-      <a href="gson.html">
-        <img src="gson-sofa.jpg" class="product-img" alt="GSON">
-      </a>
+  <section class="hero">
+    <h1>Our Luxury Collection</h1>
+    <p>Discover LOUNE, GSON and PEACE UP — crafted for elegance, confidence and style.</p>
+    <div class="gold-line"></div>
+  </section>
 
-      <h3>GSON</h3>
+  <main class="collection">
+    <div class="products">
 
-      <p class="product-text">
-        A fresh and powerful scent with a modern, bold character.
-      </p>
+      <article class="product">
+        <a href="loune.html">
+          <img src="lounejpeg.jpeg" class="product-image" alt="GRXFIND LOUNE fragrance">
+        </a>
 
-      <a href="gson.html" class="buy-btn">View Product</a>
+        <h2>LOUNE</h2>
+
+        <p>
+          A soft, elegant fragrance with a feminine and luxurious style.
+        </p>
+
+        <a href="loune.html" class="button">VIEW PRODUCT</a>
+      </article>
+
+      <article class="product">
+        <a href="gson.html">
+          <img src="gson-sofa.jpg" class="product-image" alt="GRXFIND GSON fragrance">
+        </a>
+
+        <h2>GSON</h2>
+
+        <p>
+          A fresh and powerful scent with a modern, bold character.
+        </p>
+
+        <a href="gson.html" class="button">VIEW PRODUCT</a>
+      </article>
+
+      <article class="product">
+        <a href="peaceup.html">
+          <img src="peaceupjpeg.jpeg" class="product-image" alt="GRXFIND PEACE UP fragrance">
+        </a>
+
+        <h2>PEACE UP</h2>
+
+        <p>
+          A rich, powerful fragrance created for confidence and style.
+        </p>
+
+        <a href="peaceup.html" class="button">VIEW PRODUCT</a>
+      </article>
+
     </div>
+  </main>
 
-    <div class="product-card">
-      <a href="peaceup.html">
-        <img src="peaceupjpeg.jpeg" class="product-img" alt="PEACE UP">
-      </a>
+  <footer class="footer" id="contact">
+    © 2026 GRXFIND Luxury Fragrance Collection
+  </footer>
 
-      <h3>PEACE UP</h3>
+</body>
+</html>
+      line-height: 1.6;
+    }
 
-      <p class="product-text">
-        A rich, powerful fragrance for confidence and style.
-      </p>
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-      <a href="peaceup.html" class="buy-btn">View Product</a>
+    .navbar {
+      width: 100%;
+      padding: 18px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #292929;
+      background: #0b0b0b;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      height: 55px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .nav-links a {
+      color: #f5f1e8;
+      transition: 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: #d4af37;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 85px 20px 55px;
+      background:
+        radial-gradient(circle at center, #242016 0%, #0b0b0b 58%);
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 7vw, 78px);
+      font-weight: 500;
+      letter-spacing: 2px;
+      color: #d4af37;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 620px;
+      margin: auto;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #cfc9bd;
+      letter-spacing: 1px;
+    }
+
+    .gold-line {
+      width: 75px;
+      height: 1px;
+      background: #d4af37;
+      margin: 28px auto 0;
+    }
+
+    .collection {
+      max-width: 1180px;
+      margin: auto;
+      padding: 45px 20px 90px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .product {
+      text-align: center;
+      padding: 28px 22px 35px;
+      border: 1px solid #292929;
+      background: #111111;
+      transition: transform 0.25s, border-color 0.25s;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+      border-color: #d4af37;
+    }
+
+    .product-image {
+      width: 100%;
+      height: 390px;
+      object-fit: contain;
+      display: block;
+      margin-bottom: 25px;
+      background: #f7f7f7;
+    }
+
+    .product h2 {
+      color: #d4af37;
+      font-size: 32px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      margin-bottom: 13px;
+    }
+
+    .product p {
+      min-height: 55px;
+      color: #c7c1b7;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 28px;
+      border: 1px solid #d4af37;
+      color: #d4af37;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      letter-spacing: 1px;
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      background: #d4af37;
+      color: #0b0b0b;
+    }
+
+    .footer {
+      border-top: 1px solid #292929;
+      text-align: center;
+      padding: 35px 20px;
+      color: #999;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 800px) {
+      .navbar {
+        padding: 15px 20px;
+      }
+
+      .logo {
+        height: 48px;
+      }
+
+      .nav-links {
+        gap: 13px;
+        font-size: 11px;
+      }
+
+      .hero {
+        padding: 60px 18px 40px;
+      }
+
+      .hero h1 {
+        font-size: 43px;
+        line-height: 1.1;
+      }
+
+      .hero p {
+        font-size: 14px;
+      }
+
+      .collection {
+        padding: 30px 16px 60px;
+      }
+
+      .products {
+        grid-template-columns: 1fr;
+        gap: 22px;
+      }
+
+      .product {
+        padding: 20px 18px 30px;
+      }
+
+      .product-image {
+        height: 330px;
+      }
+
+      .product h2 {
+        font-size: 29px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .nav-links {
+        gap: 9px;
+        font-size: 10px;
+      }
+
+      .logo {
+        height: 42px;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      .product-image {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="index.html">
+      <img src="logo.png.jpeg" class="logo" alt="GRXFIND">
+    </a>
+
+    <div class="nav-links">
+      <a href="index.html">HOME</a>
+      <a href="shop.html">SHOP</a>
+      <a href="about.html">ABOUT</a>
+      <a href="#contact">CONTACT</a>
     </div>
+  </nav>
 
-  </div>
-</section>
- 
-  <section class="simple-product">
+  <section class="hero">
+    <h1>Our Luxury Collection</h1>
+    <p>Discover LOUNE, GSON and PEACE UP — crafted for elegance, confidence and style.</p>
+    <div class="gold-line"></div>
+  </section>
 
-    <img src="lounejpeg.jpeg" class="main-product">
+  <main class="collection">
+    <div class="products">
 
-    <h1>LOUNE</h1>
+      <article class="product">
+        <a href="loune.html">
+          <img src="lounejpeg.jpeg" class="product-image" alt="GRXFIND LOUNE fragrance">
+        </a>
 
-    <p>
-        A soft, elegant fragrance with a feminine and luxurious style.
-    </p>
+        <h2>LOUNE</h2>
 
-    <a href="loune.html" class="buy-now">Buy Now</a>
+        <p>
+          A soft, elegant fragrance with a feminine and luxurious style.
+        </p>
 
-    <div class="gallery">
-        <img src="loune-bedroom.jpg">
-        <img src="loune-hand.jpg">
-        <img src="loune-story.jpeg">
+        <a href="loune.html" class="button">VIEW PRODUCT</a>
+      </article>
+
+      <article class="product">
+        <a href="gson.html">
+          <img src="gson-sofa.jpg" class="product-image" alt="GRXFIND GSON fragrance">
+        </a>
+
+        <h2>GSON</h2>
+
+        <p>
+          A fresh and powerful scent with a modern, bold character.
+        </p>
+
+        <a href="gson.html" class="button">VIEW PRODUCT</a>
+      </article>
+
+      <article class="product">
+        <a href="peaceup.html">
+          <img src="peaceupjpeg.jpeg" class="product-image" alt="GRXFIND PEACE UP fragrance">
+        </a>
+
+        <h2>PEACE UP</h2>
+
+        <p>
+          A rich, powerful fragrance created for confidence and style.
+        </p>
+
+        <a href="peaceup.html" class="button">VIEW PRODUCT</a>
+      </article>
+
     </div>
+  </main>
+
+  <footer class="footer" id="contact">
+    © 2026 GRXFIND Luxury Fragrance Collection
+  </footer>
+
+</body>
+</html>
 
   </section>
